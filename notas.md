@@ -71,3 +71,18 @@ Para asegurarse que haya un valor si o si en un parametro, por si el usuario se 
 
 La copia de calcularIVA con log se ejecuta correctamente pero cuando se usa en la copia de precioIVA con log luego suelta un resultado "NaN" porque no tiene un return y cuando termina su calculo devuelve un "undefinied"
 
+<br>
+
+## 1. ¿Qué funciones usa evaluarContrasena? ¿Y generarContrasena?
+
+La funcion evaluarContraseña usa las funciones:longitudSuficiente, tieneMayuscula,tieneMinuscula,tieneNumero y funciones de evaluación "==="
+La funcion generarContraseña usa las funciones: Number(), isInteger() y funciones de validación con signos de mayor que o menor que
+
+<br>
+
+## 2. ¿Cuál fue la función más difícil? ¿Por qué?
+
+Seria evaluarContraseña, por la cantidad de funciones que hay que hacer anteriormente 
+
+<br>
+

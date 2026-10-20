@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <h2>1. Calculadora de Precios</h2>
+        <label>Precio: <input type="text" id="inp-precio"></label><br><br>
+        <label>IVA (%): <input type="text" id="inp-iva" placeholder="21"></label><br><br>
+        <label>Descuento (%): <input type="text" id="inp-desc" placeholder="0"></label><br><br>
+        <button id="btn-precio">Calcular Precio Final</button>
+        <p id="res-precio" class="resultado"></p>
+    </section>
+
+    <section>
+        <h2>2. Temperaturas</h2>
+        <label>Valor: <input type="text" id="inp-temp"></label>
+        <select id="sel-de">
+            <option value="C">Celsius (°C)</option>
+            <option value="F">Fahrenheit (°F)</option>
+        </select>
+        <span> a </span>
+        <select id="sel-a">
+            <option value="F">Fahrenheit (°F)</option>
+            <option value="C">Celsius (°C)</option>
+        </select>
+        <button id="btn-temp">Convertir</button>
+        <p id="res-temp" class="resultado"></p>
+    </section>
+
+    <section>
+        <h2>3. Evaluar Contraseña</h2>
+        <label>Contraseña: <input type="text" id="inp-pass-eval"></label>
+        <button id="btn-eval">Evaluar</button>
+        <p id="res-eval" class="resultado"></p>
+    </section>
+
+    <section>
+        <h2>4. Generar Contraseña</h2>
+        <label>Longitud (6-30): <input type="text" id="inp-pass-len" value="12"></label><br><br>
+        <label><input type="checkbox" id="chk-mayus" checked> Incluir Mayúsculas</label><br>
+        <label><input type="checkbox" id="chk-num" checked> Incluir Números</label><br><br>
+        <button id="btn-gen">Generar</button>
+        <p id="res-gen" class="resultado"></p>
+    </section>
+
+    <section>
+        <h2>5. Contador de Palabras</h2>
+        <textarea id="inp-texto" rows="4" cols="50" placeholder="Escribe tu texto aquí..."></textarea><br>
+        <label>Palabras por minuto (PPM): <input type="text" id="inp-ppm" placeholder="200"></label><br><br>
+        <button id="btn-texto">Analizar Texto</button>
+        <p id="res-texto" class="resultado"></p>
+    </section>
+
+    <script src="funciones.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+    
+</body>
+</html>

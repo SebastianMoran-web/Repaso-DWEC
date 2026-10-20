@@ -169,8 +169,8 @@ function generarContraseña(longitud, opciones = { mayusculas: true, numeros: tr
     }
 }    
 
-generarContrasena(12)
-generarContrasena(3)  
+generarContraseña(12)
+generarContraseña(3)  
 
 function palabras(texto) {
     const textoLimpio = texto.trim();
@@ -217,3 +217,15 @@ function minutosLectura(texto, ppm = 200) {
 
 minutosLectura("")
 
+function esNumeroValido(texto) {
+
+    if (typeof texto !== "string" || texto.trim() === "") {
+        return false;
+    }
+
+    return !Number.isNaN(Number(texto));
+}
+
+esNumeroValido("12")
+esNumeroValido("")  
+esNumeroValido("12px")

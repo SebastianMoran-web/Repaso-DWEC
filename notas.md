@@ -86,3 +86,19 @@ Seria evaluarContraseña, por la cantidad de funciones que hay que hacer anterio
 
 <br>
 
+## 1. ¿Por qué el precio vacío no puede tratarse como 0?
+
+Porque sino seria un 0 el resultado si o si, y no se necesita una calculadora para saber el resultado de una operacion  que contenga una multiplicacion por 0
+
+<br>
+
+## 2. Apunta tres funciones predefinidas que has usado en esta fase y para qué.
+
+Number(),para transformar un texto a numero y usarlo como dato numerico, lo use en esNumeroValido
+.isNaN(), para saber si es un numero y es la funcion principal de su funcion, lo use en esNumeroValido
+.trim(), para quitarle los espacios a los string, lo use en esNumeroValido para ponerle una condicion en un if, si el texto con la funcion .trim esta vacia se devuelve false
+
+<br>
+
+
+    

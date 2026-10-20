@@ -53,4 +53,21 @@ Que se idnetifica primero un tipo de dato, en un número y en el otro una letra,
 
 Porque los ordenadores trabajan en binario y utilizan un estandar que para procesar los números "float", el cual es físicamente incapaz de almacenar ciertos decimales con precisión exacta. Porque la falta de exactitud de decimales arruinarian las transacciones de una compra
 
+<br>
+
+## 1. Con un ejemplo de tu código: ¿qué es un parámetro y qué es un argumento?
+
+Un parametro es un espacio indicado en el codigo que sirve para saber que dato se espera que el usuario dé. Un argumento es un valor dado a un parametro y que se usa para una operación
+
+<br>
+
+## 2. ¿Cuándo se usa un valor por defecto?
+
+Para asegurarse que haya un valor si o si en un parametro, por si el usuario se le olvida enviar un valor a un dato clave y no rompa todo el código
+
+<br>
+
+## 3. ¿Qué pasó con la copia que usaba console.log? ¿Por qué?
+
+La copia de calcularIVA con log se ejecuta correctamente pero cuando se usa en la copia de precioIVA con log luego suelta un resultado "NaN" porque no tiene un return y cuando termina su calculo devuelve un "undefinied"
 

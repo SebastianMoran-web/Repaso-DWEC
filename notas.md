@@ -100,5 +100,11 @@ Number(),para transformar un texto a numero y usarlo como dato numerico, lo use 
 
 <br>
 
+## 1. ¿Qué fallo introdujiste y qué prueba lo detectó?
 
+Quitarle el "=21" a tipo en calcularIVA
+
+## 2. ¿Por qué no sirve una prueba que siempre pasa?
+
+Una prueba que siempre pasa no sirve porque no tiene valor real para el desarrollo; es una falsa alarma de seguridad. El objetivo principal de una prueba (test) no es demostrar que tu código funciona cuando todo va bien, sino intentar romperlo para descubrir dónde es vulnerable antes de que lo haga un usuario real.
     

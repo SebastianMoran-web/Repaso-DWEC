@@ -5,7 +5,7 @@ Ejemplos
 calcularIVA(100)  →  21
 calcularIVA(100, 10)  →  10*/
 
-function calcularIVA(precio, tipo) {
+function calcularIVA(precio, tipo ) {
     return precio * (tipo / 100);
 }
 
@@ -73,7 +73,7 @@ function calcularIvalog(precio, tipo){
 calcularIvalog(100, 10);
 
 
-function precioIvalog(precio, tipo){
+function precioIvalog(precio, tipo = 21){
     return precio + calcularIvalog(precio, tipo);
 }
 
